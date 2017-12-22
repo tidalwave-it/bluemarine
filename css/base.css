@@ -4,7 +4,17 @@
 html,
 body {
   height: 100%;
+  background-color: #181818;
+  color: #ccc;
   /* The html and body elements cannot have any padding or margin. */
+}
+
+.bg-dark {
+    background-color: #101010 !important;
+}
+
+a {
+  color: #fff;
 }
 
 .xcontent {
@@ -28,8 +38,13 @@ div.media {
     margin-bottom: 4em;
 }
 
+.xcentered {
+    text-align: center;
+}
+
 h1, h2, h3, h4 {
     font-family: sans-serif;
+    color: #eee !important;
 }
 
 h1 {
@@ -40,6 +55,8 @@ div.xcontent hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
     height: 40px;
     background: url(/img/hr-stephan-hilbelink2.png);
     background-repeat: no-repeat;
