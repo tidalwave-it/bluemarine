@@ -6,8 +6,8 @@
     <atom:link href="http://bluemarine.tidalwave.it/feed.xml" rel="self" type="application/rss+xml" />
     <description>blueMarine II feed</description>
     <language>en-gb</language>
-    <pubDate>Fri, 22 Dec 2017 15:45:58 +0100</pubDate>
-    <lastBuildDate>Fri, 22 Dec 2017 15:45:58 +0100</lastBuildDate>
+    <pubDate>Fri, 22 Dec 2017 17:06:47 +0100</pubDate>
+    <lastBuildDate>Fri, 22 Dec 2017 17:06:47 +0100</lastBuildDate>
 
     <item>
       <title>Resuming blueMarine?</title>
@@ -22,5 +22,5 @@
 	</description>
     </item>
 
-  </channel>
+  </channel> 
 </rss>
