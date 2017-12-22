@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Resuming blueMarine?</title>
+    <title>Specifications</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +25,7 @@
 
   <body onload="prettyPrint()">
     <div id="wrap">
-	
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="../../">blueMarine II</a>
@@ -73,18 +73,149 @@
 
     <div class="container">	
 	<div class="page-header">
-		<h1>Resuming blueMarine?</h1>
+		<h1>Specifications</h1>
 	</div>
 
-	<p><em>22 November 2017</em></p>
+	<p><em>22 December 2017</em></p>
 
 	<p>
-<p>After many years of silence, a blueMarine website is again online. What's happening? Please read the
-    <a href="/about/">about</a> page.</p>
+<table>
+    <thead>
+        <tr>
+            <td>
+                Function
+            </td>
+            <td>
+                Lightroom
+            </td>
+            <td>
+                Capture One
+            </td>
+            <td>
+                blueMarine II
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+Ingestion
+            </td>
+            <td>
+✓
+            </td>
+            <td>
+
+            </td>
+            <td>
+Must be done when all the other functions depending on LR have been ported, since they depend on
+the LR database.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Geotagging
+            </td>
+            <td>
+✓
+            </td>
+            <td>
+
+            </td>
+            <td>
+Requires being able to save XMP, so LR and C1 can import the metadata.
+            </td>
+        </tr>
+        <tr>
+            <td>
+EXIF for manual lenses
+            </td>
+            <td>
+✓
+            </td>
+            <td>
+
+            </td>
+            <td>
+Requires being able to save XMP, so LR and C1 can import the metadata
+            </td>
+        </tr>
+        <tr>
+            <td>
+Keywords and XMP
+            </td>
+            <td>
+✓
+            </td>
+            <td>
+
+            </td>
+            <td>
+Requires being able to save XMP, so LR and C1 can import the metadata
+            </td>
+        </tr>
+        <tr>
+            <td>
+Evaluation and pruning
+            </td>
+            <td>
+
+            </td>
+            <td>
+✓ Must stay with C1, since it's the application that can render images at their best quality and with 1:1 zooming.
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+Virtual copies
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+Export images
+            </td>
+            <td>
+
+            </td>
+            <td>
+✓ Must stay with C1, since it's the post-processing application.
+            </td>
+            <td>
+Perhaps BM can drive C1 by means of the Applescript API.
+            </td>
+        </tr>
+        <tr>
+            <td>
+Export collections
+            </td>
+            <td>
+✓
+            </td>
+            <td>
+
+            </td>
+            <td>
+C1 can access LR database. Perhaps it can also sync collections to C1.
+            </td>
+        </tr>
+    </tbody>
+</table>
 </p>
 
 	<hr />
-	
+
 		</div>
 		<div id="push"></div>
     </div>
