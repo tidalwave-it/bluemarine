@@ -13,7 +13,11 @@ body {
     background-color: #101010 !important;
 }
 
-a {
+a, a:hover {
+  color: #fff;
+}
+
+b, strong {
   color: #fff;
 }
 
@@ -48,7 +52,15 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.3em;
 }
 
 div.xcontent hr {
